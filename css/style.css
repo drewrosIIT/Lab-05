@@ -1,3 +1,47 @@
-p {
-  color: blue;
+body {
+  background-color: gray;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 70px;
+}
+
+table{
+  text-align: center;
+  table-layout: fixed;
+  width: 100%;
+}
+
+th {
+  font-size: 25px;
+  padding: 10px;
+}
+
+td{
+  font-size: 20px;
+}
+
+.mercury {
+  color: darkred;
+}
+
+.earth {
+  color: darkgreen;
+}
+
+.jupiter {
+  color: darkorange;
+}
+
+.neptune {
+  color: darkblue;
+}
+
+.super{
+  font-size: 60%;
+  position: relative;
+  bottom: 10px;
 }
